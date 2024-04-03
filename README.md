@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 For Linux/MacOS:
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 <br>
 Скачайте библиотеку <a href="https://github.com/ejeklint/ArduinoWebsocketServer">ArduinoWebsocketServer</a> и установить её:
