@@ -13,21 +13,36 @@ Websocket сервер, развернутый на платформе Arduino, 
 - [ArduinoWebsocketServer](https://github.com/ejeklint/ArduinoWebsocketServer)
 - [FastAPI](https://fastapi.tiangolo.com/)
 ## Использование
-Установите необходимые библиотеки с помощью команды:
+Скачайте репозиторий:
 <br>
 <br>
 For Windows:
 ```
+git clone https://github.com/Whynot46/Arduino_Websocket_Server
+```
+For Linux:
+```
+sudo git clone https://github.com/Whynot46/Arduino_Websocket_Server
+```
+<hr>
+Установите необходимые библиотеки с помощью команды:
+<br>
+<br>
+For Windows:
+
+```
 pip install -r requirements.txt
 ```
-For Linux/MacOS:
+For Linux:
 ```
 pip3 install -r requirements.txt
 ```
-<br>
+<hr>
 Скачайте библиотеку <a href="https://github.com/ejeklint/ArduinoWebsocketServer">ArduinoWebsocketServer</a> и установить её:
 <br>
 Откройте Arduino IDE и следуйте пути:
+<br>
+<br>
 
 ```
 Скетч -> Подключить библиотеку -> Добавить .ZIP библиотеку
