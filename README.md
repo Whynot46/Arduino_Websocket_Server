@@ -7,6 +7,7 @@ Websocket сервер, развернутый на платформе Arduino, 
 - [Технологии](#технологии)
 - [Использование](#использование)
 - [Требования](#требования)
+- [Ограничения](#ограничения)
 - [Команда проекта](#команда-проекта)
 ## Технологии
 - [ArduinoWebsocketServer](https://github.com/ejeklint/ArduinoWebsocketServer)
@@ -34,5 +35,9 @@ pip3 install -r requirements.txt
 ## Требования
 - Arduino Uno (R3 and later)
 - Arduino Ethernet Shield, Arduino Ethernet Shield 2, Leonardo Ethernet и любые другие устройства на базе W5100/W5200/W5500.
+## Ограничения
+- Количество одновременных подключений может быть ограничено оперативной памятью или аппаратным обеспечением (Каждое соединение занимает 16 байт ОЗУ, а шилд W5100 аппаратно ограничен четырьмя одновременными соединениями).
+- Логика поддержания активности не реализована.
+- Другие ограничения смотрите в репозитории библиотеки <a href="https://github.com/ejeklint/ArduinoWebsocketServer">ArduinoWebsocketServer</a>.
 ## Команда проекта
 - [Алексей Пахалев](https://github.com/Whynot46)
