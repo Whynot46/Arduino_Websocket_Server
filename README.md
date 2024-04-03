@@ -2,6 +2,7 @@
 Сервер Websocket, развернутый на платформе Arduino, отправляет данные на сервер Fast API и отображает данные в виде графика.
 <br>
 Разрабатывалось для Arduino Uno R3 и Ethernet Shield на базе W5100.
+![Иллюстрация к проекту](https://github.com/Whynot46/Arduino_Websocket_Server/blob/main/example.PNG)
 ## Содержание
 - [Технологии](#технологии)
 - [Использование](#использование)
